@@ -1,0 +1,14 @@
+table p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 300px;
+    white-space: nowrap;
+}
+
+.tooltip {
+    pointer-events: none;
+}
+
+#tblMovimientosAjuste tbody tr td {
+    vertical-align: middle;
+}

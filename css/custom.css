@@ -1,0 +1,51 @@
+/* list stuff */
+#org{
+	background-color 	: white;
+	margin 				: 10px;
+	padding 			: 10px;
+}
+
+/* Custom chart styling */
+.jOrgChart {
+  margin                : 10px;
+  padding               : 20px;
+}
+
+/* Custom node styling */
+.jOrgChart .node {
+	font-size 			: 1em;
+	background-color 	: #039be6;
+	border-radius 		: 8px;
+	border 				: 1px solid #fffeff;
+	color 				: #FFFFFF;
+	-moz-border-radius 	: 8px;
+	width				: 250px;     /*  max-content;*/
+	height				: 110px;/*max-content;*/
+    padding				: 5px;
+    
+}
+	.node p{
+		font-family 	: tahoma;
+		font-size 		: 10px;
+		line-height 	: 11px;
+		padding 		: 2px;
+	}
+	
+.puesto{
+	float: right;
+	width:65%;
+}
+
+.img-organigrama{
+	float: left;
+	position:relative;
+	bottom:20px;
+	border-radius: 50%; 
+	width:33%;
+}
+
+.nombreempleado{
+	position:relative;
+	bottom:10px;
+	font-weight: 800;
+}

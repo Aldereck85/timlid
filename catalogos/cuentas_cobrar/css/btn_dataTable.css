@@ -1,0 +1,24 @@
+
+.datatables-btn {
+    margin: 0px 10px 5px 0;
+    text-align: center;
+  }
+  
+/*   .dataTables_wrapper {
+    text-align: center;
+  } */
+  
+  .datatables-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -.75rem;
+    margin-left: -.75rem;
+  }
+  
+  .dataTables_length {
+    float: left;
+  }
+  

@@ -1,0 +1,39 @@
+.ss-main .ss-single-selected {
+  background-color: #fff;
+  color: #666;
+  outline: 0;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+}
+
+.ss-main .ss-single-selected .ss-arrow span {
+  border: solid var(--primario-oscuro);
+  border-width: 0 2px 2px 0;
+}
+
+.prioridad-alta {
+  border-color: var(--color-rojo);
+  background-color: var(--color-rojo);
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  border-radius: 999px;
+}
+
+.prioridad-media {
+  border-color: var(--naranja-claro);
+  background-color: var(--naranja-claro);
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  border-radius: 999px;
+}
+
+.prioridad-baja {
+  border-color: var(--color-amarillo-fuerte);
+  background-color: var(--color-amarillo-fuerte);
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  border-radius: 999px;
+}

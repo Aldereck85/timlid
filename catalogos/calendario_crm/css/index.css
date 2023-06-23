@@ -1,0 +1,40 @@
+.dt-buttons .dropdown-menu:after{
+    content: unset !important;
+}
+
+.dt-buttons .dropdown-menu:before{
+    content: unset !important;
+}
+
+.dt-buttons .dropdown-menu{
+    position: relative !important;
+    border: unset;
+}
+
+.dtsb-list-edit input{
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: gray;
+    padding: .4em;
+    margin-right: .8em;
+    max-width: 20em;
+}
+
+div.dtsb-searchBuilder button.dtsb-button:hover {
+    color: #fff !important;
+    background-color: #858796 !important;
+    border-color: #858796 !important;
+}
+
+div.dtsb-searchBuilder button.dtsb-button {
+    color: #858796 !important;
+    border-color: #858796 !important;
+    padding: .25rem .5rem !important;
+    font-size: .875rem !important;
+    line-height: 1.5 !important;
+    border-radius: .2rem !important;
+}
+
+thead th{
+    border-bottom: unset !important;
+}

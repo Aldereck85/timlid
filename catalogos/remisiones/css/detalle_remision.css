@@ -1,0 +1,27 @@
+h2 {
+  color: var(--color-primario);
+}
+
+tfoot th{
+  color: var(--color-primario);
+}
+
+#eliminar_destinatarios{
+  display: none;
+}
+
+.not_border_bottom{
+  border-bottom: none !important;
+}
+
+.not_border_top{
+  border-top: none !important;
+}
+
+#btnModalCancelacion{
+  display:none;
+}
+
+label,h2, tfoot tr th{
+  color: #858796 !important;
+}

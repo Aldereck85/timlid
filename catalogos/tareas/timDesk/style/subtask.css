@@ -1,0 +1,49 @@
+.sub-default-checkmark {
+  width: 15px;
+  height: 15px;
+  background-color: #e1e1e1;
+  border-radius: 50%;
+  border: 1px solid #b8b8b8;
+  cursor: pointer;
+}
+
+.sub-done-checkmark {
+  width: 16px;
+  height: 16px;
+  background-color: #40a09d;
+  border-radius: 50%;
+  border: 1px solid #40a09d;
+  cursor: pointer;
+  background-image: url(../../../../img/timdesk/checkmark.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sub-plus-icon {
+  background-image: url(../img/icons/plus.svg);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.subTask-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  background: white;
+}
+
+.subtasks {
+  padding: 15px;
+  background: #f6f6f6;
+  margin-bottom: 5px;
+}
+
+.sub-actions {
+  width: 40px;
+  justify-content: space-evenly;
+}
+
+.subtask-element {
+  margin-right: 5px;
+}

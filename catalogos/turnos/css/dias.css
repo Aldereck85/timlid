@@ -1,0 +1,44 @@
+.weekDays-selector input {
+  display:none!important;
+}
+
+.weekDays-selector input[type=checkbox] + label{
+  display: inline-block;
+  border-radius: 6px;
+  background: #dddddd;
+  height: 38px;
+  width: 45px;
+  margin-right: 3px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  padding-bottom: 7px;
+}
+
+.weekDays-selector input[type=checkbox]:checked + label {
+  background: #006dd9;
+  color: #ffffff;
+}
+
+.weekDays-selector2 input{
+  display: none!important;
+}
+
+
+.weekDays-selector2 input[type=checkbox] + label {
+  display: inline-block;
+  border-radius: 6px;
+  background: #dddddd;
+  height: 38px;
+  width: 45px;
+  margin-right: 3px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  padding-bottom: 7px;
+}
+
+.weekDays-selector2 input[type=checkbox]:checked + label {
+  background: #006dd9;
+  color: #ffffff;
+}

@@ -1,0 +1,20 @@
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+.link {
+  color: #4e73df;
+}
+
+.header-screen {
+  display: block;
+  width: 400px;
+  height: 35px;
+  align-items: center;
+}
+
+.header-title-screen img {
+  display: inline-block;
+  height: 40px;
+}

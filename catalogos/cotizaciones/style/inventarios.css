@@ -1,0 +1,41 @@
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+.link {
+  color: #4e73df;
+}
+
+/* .header-screen {
+  display: block;
+  width: 400px;
+  height: 35px;
+  align-items: center;
+  vertical-align: middle;
+} */
+
+.header-title-screen img {
+  display: inline-block;
+  height: 40px;
+}
+
+.dataTables_wrapper .dt-buttons {
+  position: relative;
+  left: 1400px;
+  display: inline-flex;
+}
+
+.card-body {
+  margin-top: 15px !important;
+}
+
+#tblInventarios_filter label {
+  margin-top: 11px !important;
+  margin-right: 3px !important;
+}
+
+.buttons-excel {
+  background: #1d6f42 !important;
+  box-shadow: none !important;
+}

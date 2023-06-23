@@ -1,0 +1,367 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+body {
+  overflow-x: hidden;
+}
+
+.btnColorPicker{
+  display: inline-block;
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: .4s;
+  border: none;
+    outline:none;
+    background: #15589B;
+}
+
+#rcorners1 {
+  border-radius: 0px 500px 500px 0px;
+  background: #15589B;
+  width: 40px;
+  height: 15px;
+  display: inline;
+}
+
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  z-index: 10;
+}
+
+#sidebar-menu {
+  min-height: 100vh;
+  position: relative;
+  min-width: 15%;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-menu .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+	width: 4rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-menu {
+  margin-left: -16rem;
+}
+
+#btnSideMenu{
+	position: absolute;
+    top: 10px;
+    left: 93%;
+    z-index: 1;
+}
+
+#filas{
+	padding: 15px;
+}
+
+#page-content-wrapper .board-header, .board-content{
+	padding: 30px 30px 0 30px;
+}
+
+.board-header{
+	border-bottom: 1px solid transparent;
+	min-height: 155px;
+	position: relative;
+}
+
+.btn-circle{
+	border-radius: 20px;
+}
+
+.lista {
+	padding: 40px;
+	width: 100%;
+	/*background: #dedede;*/
+}
+
+.lista .persona {
+	background: #fff;
+	display: grid;
+	grid-template-columns: auto 1fr 1fr 1fr;
+	align-items: center;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	cursor: move;
+}
+
+.lista .label {
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #5173CF;
+}
+
+.lista .dato {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.lista .persona img {
+	width: 70px;
+	border-radius: 100%;
+	margin-right: 40px;
+}
+
+.items .contenedor.seleccionado{
+	transform: scale(1.02) rotate(-1deg);
+	box-shadow: 0px 0px 20px rgba(149,153,159,.16);
+	background: #ecf5ff;
+}
+
+.items .contenedor.fantasma{
+	border: 2px solid white;
+}
+
+.items .contenedor.drag{
+	opacity: 0;
+}
+
+.encabezado-columna{
+	width: 12rem;
+	text-align: center;
+}
+
+.encabezado-columna:hover{
+	background: #d1dce8;
+	cursor: move;
+}
+
+#columnas-principales-grupo1{
+	display: flex;
+}
+
+.header {
+	position: relative;
+}
+
+.header div{
+	position: absolute;
+	left: 10px;
+	top: -2px;
+}
+
+.icon{
+	display: none;
+}
+
+.icon::after{
+	content: ":::";
+}
+
+.icon:hover{
+	cursor: move;
+}
+
+.lineaTarea{
+	background-color: #f5f6f8;
+}
+
+.agregarTarea{
+	opacity: 0.5;
+	border: 1px solid #dedede;
+	padding: 7px;
+}
+
+.etapas{
+	position: relative;
+}
+
+.agregarColumna{
+	position: absolute;
+	top: 80%;
+    right: 40px;
+}
+
+.agregarColumna i{
+	font-size: 25px;
+}
+
+.listaColumnas{
+	position: absolute;
+	top: 160px;
+	right: 50px;
+  background-color: rgba(100, 100, 100, 0.9); !important;
+  z-index: 100;
+  border-radius: 10px 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  box-shadow: 0px 8px 21px -5px rgba(0,0,0,0.75);
+  /*border-bottom: 1px solid #E1E1E1;*/
+  width: 15%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color:white;
+}
+
+.columna-item{
+	display: flex;
+	align-items: center;
+}
+
+.columna-item:hover{
+	background: transparent;
+  color:#f28d08;
+	cursor:pointer;
+}
+
+.contenedor{
+	display: flex;
+	/*border: 2px solid #c3c3c3;*/
+  border: 2px solid transparent;
+	flex-direction: row;
+	width: 100%;
+}
+
+.encabezado-etapa, .columna-tarea{
+	width: 200px;
+	/*border: 1px solid green;*/
+}
+
+.encabezado-etapa, .item-name{
+	padding: 7px;
+	/*background-color: #f5f6f8;*/
+  background-color: white;
+	border: 1px solid white;
+  margin-right: 2px;
+  margin-bottom: : 2px !important;
+}
+
+.titulo-etapa, .titulo-item{
+	flex-grow: 3;
+}
+
+.pie-grupo{
+	height: 100px;
+}
+
+.status-icon{
+	background-image: url(../img/icons/estado.png);
+	background-size: 100%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -2px;
+    top: 4px;
+}
+
+.user-icon{
+	background-image: url(../img/icons/user.png);
+	background-size: 100%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -2px;
+    top: 4px;
+}
+
+.date-icon{
+	background-image: url(../img/icons/day.png);
+	background-size: 100%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -2px;
+    top: 4px;
+}
+/*--------------------UTILIDADES-----------------------------*/
+/*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
+
+/*IMAGENES*/
+.imgHover:hover{
+	transform: scale(1.1,1.1);
+}
+
+.imgActive:active{
+	transform: scale(0.8, 0.8);
+}
+
+.cursorPointer:hover{
+	cursor: pointer;
+}
+
+/*---OVERFLOW---*/
+.overflow-h{
+	overflow: hidden;
+}
+
+/*---ANCHO---*/
+.w-rem-55{
+	width: 55rem;
+}
+
+/*ancho porcentajes*/
+.wp-15{
+	width: 15%;
+}
+
+/*---FONT-SIZE---*/
+.fs-20{
+	font-size: 20px;
+}
+
+/*---PADDING---*/
+.pd-20{
+	padding: 20px;
+}
+
+/*---MARGENES---*/
+.mr-30{
+	margin-right: 30px;
+}
+
+
+
+/*-----------------------RESPONSIVE--------------------------*/
+/*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+  /*
+  #wrapper.toggled #sidebar-menu {
+    margin-left: -15rem;
+  }
+  */
+}

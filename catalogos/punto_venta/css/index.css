@@ -1,0 +1,389 @@
+select:invalid {
+  color: #b1b1b1 !important;
+}
+
+.ss-main .ss-single-selected {
+  background-color: #fff;
+  color: #666;
+  outline: 0;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+}
+
+.ss-main .ss-single-selected .ss-arrow span {
+  border: solid #006dd9;
+  border-width: 0 2px 2px 0;
+}
+
+.dropdown-menu:after,
+.arrow-up:before {
+  border-bottom: 10px solid transparent;
+}
+
+.data_fiscal_product,
+#comboClient,
+#file-upload-image-product
+{
+  display: none;
+}
+
+#btn-controls-sales-outlet.bg-light, 
+#btn-controls-product-modal.bg-light 
+{
+  background-color: #fff !important;
+  
+}
+
+#btn-controls-sales-outlet .nav-link,
+#btn-controls-product-modal .nav-link
+{
+  color:  #15589b;
+  margin-right: 2rem !important;
+}
+
+#btn-controls-sales-outlet .dropdown-menu::before, 
+#btn-controls-product-modal .dropdown-menu::before 
+{
+  content: "";
+  position: absolute;
+  right: 55px;
+  top: -12px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 12px 12px 12px;
+  border-color: transparent transparent rgba(5, 61, 118, 0.9) transparent;
+  z-index: 9999;
+}
+
+.modal.modal-right .modal-dialog{max-width:380px;min-height:calc(100vh - 0)}
+.modal.modal-right.show .modal-dialog{transform:translate(0,0)}
+.modal.modal-right .modal-content{height:calc(100vh - 0);overflow-y:auto}
+.modal.modal-right .modal-dialog{transform:translate(100%,0);margin:0 0 0 auto}
+
+.disable-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently supported by any browser but < IE9 */
+}
+
+#lbl-file-upload-image-product{
+  cursor: pointer;
+}
+
+#lbl-file-upload-image-product:hover{
+  opacity: 0.5;
+}
+
+.no-visible
+{
+  display: none;
+}
+
+.yes-visible
+{
+  display: flex;
+}
+
+.yes-visible-inputs
+{
+  display: block;
+}
+
+.yes-visible-table{
+  display: table;
+}
+
+#header_search_sat, 
+#header_search_unidad_medida,
+#tblStocksProduct 
+{
+  text-align: right;
+}
+
+#tabla_body_sat tr:hover{
+  background-color:#b1b1b1;
+  color:#fff;
+  cursor: pointer;
+}
+
+#tblUnidadMedidaModal tr:hover{
+  background-color:#b1b1b1;
+  color:#fff;
+  cursor: pointer;
+}
+
+#tbl_pedding_sales tr:hover{
+  background-color:#b1b1b1;
+  color:#fff;
+  cursor: pointer;
+}
+
+#tbl_products_found_seeker tbody tr:hover,
+#tbl_products_found_seeker_checker tbody tr:hover
+{
+  background-color:#b1b1b1;
+  color:#fff;
+  cursor: pointer;
+}
+
+
+#tblClaveSatModal thead th, 
+#tblClaveSatModal thead td,
+#tblUnidadMedidaModal thead th, 
+#tblUnidadMedidaModal thead td,
+#tblExistProduct th,
+#tblExistProduct td
+{
+  border-top: 0;
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--azul-oscuro);
+}
+
+#tblStocksProduct thead th, #tblStocksProduct thead td {
+  border-top: 0 !important;
+  padding: 0.75rem !important;
+  border-bottom: 1px solid var(--azul-oscuro) !important;
+}
+
+#tblClaveSatModal thead th,
+#tblUnidadMedidaModal thead th,
+#tblExistProduct thead th
+{
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+}
+
+#tblStocksProduct thead th {
+  font-weight: 400 !important;
+  font-family: Montserrat, sans-serif !important;
+}
+
+#tblClaveSatModal thead,
+#tblUnidadMedidaModal thead,
+#tblExistProduct thead
+{
+  color: #646363;
+}
+
+#tblStocksProduct thead {
+  color: #646363 !important;
+}
+
+#tblClaveSatModal tbody,
+#tblUnidadMedidaModal tbody,
+#tblExistProduct tbody
+{
+  color: #858796;
+}
+
+#tblStocksProduct tbody {
+  color: #858796 !important;
+}
+
+.border-left-subtotals{
+  border-left:1px solid #e3e6f0a8;
+}
+
+.border-bottom-subtotals{
+  border-bottom:1px solid #e3e6f0a8;
+}
+
+.border-right-subtotals{
+  border-right:1px solid #e3e6f0a8;
+}
+
+#txtInternalKey,
+#txtDescription,
+#txtPrice,
+#txtStock
+{
+  cursor: default
+}
+
+#itemsBoxSuc img
+{
+  vertical-align: none;
+}
+
+#itemsBoxSuc.nav-item:hover a 
+{
+  text-decoration: none;
+}
+
+#modal_products_found_seeker .modal-dialog,
+#modal_products_found_seeker .modal-content,
+#modal_products_found_seeker_checker .modal-dialog,
+#modal_products_found_seeker_checker .modal-content
+{
+  height: 81%;
+}
+
+.red {
+  background-color: #f26608 !important;
+  color: #fff;
+}
+
+.text-between
+{
+  width: 100%; 
+  text-align: center; 
+  margin: 10px 0 20px; 
+}
+
+.text-between span 
+{
+  background:#fff; 
+  padding:0 10px; 
+}
+
+#credit-payment-data,
+#bank-transfer-details
+{
+  display: none;
+}
+
+.btn-group
+{
+  border: 2px solid #15589b;
+  border-radius:15px;
+}
+
+
+#tblTicket a:hover
+{
+  text-decoration: none;
+}
+
+table.dataTable tr.focus {
+  outline: 1px solid #ac1212;
+  outline-offset: -3px;
+  background-color: #f8e6e6 !important;
+}
+
+#form-subtotals-ticket
+{
+  color: #646363;
+}
+
+#tblCashClosing.table {
+  border: 1px solid #b2b2b2;
+}
+
+#tblCashClosing thead{
+  color: #646363;
+  
+}
+
+#tblCashClosing thead th{
+  border-top: 0;
+  padding: 0.75rem;
+  border-bottom: 1px solid #b2b2b2;
+  font-weight: bold;
+}
+
+.header_row
+{
+    color:#15589b;
+    font-weight: bold;
+}
+
+#tblCashClosing tbody td{
+  border-bottom: 1px solid #b2b2b2 ;
+}
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  opacity: 0.6;
+  background: url("../../../img/timdesk/Preloader.gif") 50% 50% no-repeat
+    rgb(249, 249, 249);
+}
+
+.tooltip-unico {
+  display: none;
+  width: auto;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background: rgba(0, 0, 0, .7);
+  box-shadow: 0 0 3px rgba(0, 0, 0, .7);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .7);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  position: absolute;
+  top: -30px;
+  right: -42px;
+  z-index: 111000;
+  /* opacity: 0.9; */
+  color: #FFF;
+  font-size: 14px;
+}
+
+.link:hover+.tooltip-unico {
+  display: block;
+}
+
+.tooltip-unico {
+  z-index: 20000000;
+}
+
+.tooltip-unico:hover {
+  display: block;
+}
+
+.is-invalid-tab{
+  color:#e74a3b !important;
+}
+
+#modal_config_tickets{
+  z-index: 100000000;
+}
+
+#alert_price_zero div
+{
+    display: none;
+}
+
+.tooltip-inner 
+{
+    background-color: #39acda !important;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before 
+{
+    
+    border-top-color: #39acda !important;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .tooltip.bs-tooltip-bottom .arrow::before 
+{
+    
+    border-bottom-color: #39acda !important;
+}
+
+label {
+    color:#15589b !important;
+}
+
+b{
+    color:#15589b !important;
+}
+
+#tblCashClosing th{
+    color:#15589b
+}
+
+textarea.form-control {
+    border: none !important;
+}
+
+#modal_products_found_seeker_checker.modal.modal-right .modal-dialog {
+    max-width:30% !important;
+}

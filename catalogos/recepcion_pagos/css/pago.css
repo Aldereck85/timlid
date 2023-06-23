@@ -1,0 +1,34 @@
+.btn-AgregarFacturas-disabled,
+.inpt-fecha-disabled,
+.inpt-metodo-disabled,
+.inpt-forma-disabled,
+.slct-cuenta-disabled,
+.inpt-referencia-disabled,
+.txt-comment-disabled,
+.tbl-facturas-disabled,
+.btn-guardar-disabled,
+.inpt-total-disabled,
+.inf-campos-disabled{
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 600ms, visibility 600ms;
+}
+
+.btn-guardar-disabled{
+    width: auto;
+}
+
+
+@keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+

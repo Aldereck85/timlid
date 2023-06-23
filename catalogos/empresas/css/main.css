@@ -1,0 +1,127 @@
+select:invalid {
+  color: #b1b1b1 !important;
+}
+
+.ss-main .ss-single-selected {
+  background-color: #fff;
+  color: #666;
+  outline: 0;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+}
+
+.ss-main .ss-single-selected .ss-arrow span {
+  border: solid #006dd9;
+  border-width: 0 2px 2px 0;
+}
+
+.dropdown-menu:after,
+.arrow-up:before {
+  border-bottom: 10px solid transparent;
+}
+
+#btn_save_logo,
+#btn_save_data,
+#btn_save_certificate
+{
+  cursor: pointer;
+}
+#btn_save_logo:hover,
+#btn_save_data:hover
+{
+  text-decoration: none;
+  color: #158D9B
+}
+
+#fileCer,
+#fileKey,
+#fileLogo,
+#fileUpdateCer,
+#fileUpdateKey,
+#fileUpdateLogo {
+  display: none;
+}
+
+#fileCerName,
+#fileKeyName,
+#fileLogoName,
+#fileUpdateCerName,
+#fileUpdateKeyName,
+#fileUpdateLogoName {
+  width: 30%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid #BBB;
+  text-align: center;
+  cursor: pointer;
+}
+
+label {
+  color: #15589b;
+}
+
+#uploadFileCer,
+#uploadFileKey,
+#uploadFileLogo,
+#uploadFileUpdateCer,
+#uploadFileUpdateKey,
+#uploadFileUpdateLogo {
+  text-align: center;
+  border: none;
+  background-color: white;
+  color: #15589b !important;
+  font-weight: bolder;
+  text-overflow: ellipsis;
+}
+
+.inputFilePadding{
+  border-bottom: 1px solid var(--azul-oscuro);
+  padding: 6px 12px 6px 0;
+}
+
+#fileLogoName{
+  border : none !important;
+  text-align: left;
+}
+
+.inputFilePaddingLogo{
+  width: auto;
+  margin-top: -15px;
+}
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  opacity: 0.6;
+  background: url("../../../img/timdesk/Preloader.gif") 50% 50% no-repeat
+    rgb(249, 249, 249);
+}
+
+.form-control.is-invalid-format{
+  border-bottom: 1px solid #e74a3b !important;
+}
+
+.form-control.is-invalid-format, .was-validated .form-control:invalid {
+  padding-right: calc(1.5em + 0.75rem);
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23e74a3b' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23e74a3b' stroke='none'/%3e%3c/svg%3e");
+}
+
+.invalid-feedbackFormat {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #e74a3b;
+}
+
+#expired_date_certificate,
+#fiscal_data_required{
+    display: none;
+}

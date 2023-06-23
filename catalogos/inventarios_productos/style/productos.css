@@ -1,0 +1,478 @@
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+.link {
+  color: #4e73df;
+}
+
+/* .header-screen {
+  display: block;
+  width: 400px;
+  height: 35px;
+  align-items: center;
+} */
+
+.header-title-screen img {
+  display: inline-block;
+  height: 40px;
+}
+
+/* Página */
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#page-content-wrapper .board-content {
+  /*padding: 35px 30px 0 40px;*/
+  margin: 35px 30px 0 40px;
+  overflow-y: auto;
+  height: 475px;
+}
+
+#page-content-wrapper .board-header {
+  padding: 30px 53px 0 40px;
+}
+/* Encabezado */
+.board-header {
+  border-bottom: 1px solid #dedede;
+  min-height: 155px;
+  position: relative;
+}
+
+#noSortableColumns {
+  float: left;
+  width: 200px;
+  text-align: right;
+  display: inline;
+}
+#sortableColumns {
+  float: left;
+  text-align: left;
+  display: inline;
+  width: 1px;
+}
+
+.search-tareas {
+  background-image: url(../../../img/timdesk/buscar.svg);
+  background-position: 4px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding-left: 28px;
+  height: 30px;
+  border: none;
+  border-radius: 1px;
+}
+
+.severalOptions {
+  /*border: 1px solid;*/
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.severalOptionsLeft {
+  /*border: 1px solid;*/
+  margin-bottom: 20px;
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.columna-item {
+  display: flex;
+  align-items: center;
+}
+
+.listaColumnas {
+  position: absolute;
+  top: 146px;
+  right: 50px;
+  background-color: rgba(2, 24, 46, 0.9);
+  z-index: 100;
+  border-radius: 10px;
+  box-shadow: 0px 8px 21px -5px rgba(0, 0, 0, 0.75);
+  width: 17%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.check-type-column {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+
+.checked-type-column {
+  width: 15px;
+  height: 15px;
+  background-color: #40a09d;
+  border-radius: 50%;
+  border: 1px solid #40a09d;
+  cursor: pointer;
+  background-image: url(../../../img/timdesk/checkmark.svg);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.check-type-column-modal {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+
+.checked-type-column-modal {
+  width: 15px;
+  height: 15px;
+  background-color: #40a09d;
+  border-radius: 50%;
+  border: 1px solid #40a09d;
+  cursor: pointer;
+  box-shadow: 10px 5px 5px #40a09d;
+  color: white;
+}
+
+.checked-type-column-modal .name-column,
+.checked-type-column-modal .text-column {
+  color: white;
+}
+
+/* BoardContent */
+#boardContent {
+  overflow-x: scroll;
+}
+
+.columna-producto {
+  border: 0;
+  width: 250px;
+  height: 50px;
+  padding: 10px;
+  color: #646363;
+  text-align: center;
+  cursor: all-scroll;
+  border-bottom: 1px solid #1c87a0;
+}
+
+#col_1 .columna-producto {
+  cursor: default !important;
+}
+
+.columna-info {
+  background: white;
+  text-align: center;
+}
+
+/* Utilidades */
+.pd-15 {
+  padding: 15px;
+}
+
+.d-no {
+  display: none;
+}
+
+.b-bottom {
+  border-bottom: 1px solid #e3e6f07d;
+  min-height: 27px;
+}
+
+.b-bottom input {
+  cursor: default;
+}
+
+.border-n {
+  border: none;
+  display: inline-block;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+  /*
+  #wrapper.toggled #sidebar-menu {
+    margin-left: -15rem;
+  }
+  */
+}
+
+.edit-icon {
+  width: 20px;
+  position: relative;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  /*display: none;*/
+}
+
+.delete-icon {
+  width: 20px;
+  position: relative;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  /*display: none;*/
+}
+
+.idCliente {
+  border: 2px solid #ccc;
+  /* IMPORTANTE */
+  text-align: center;
+}
+
+.se-pre-pro {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  /* z-index: 9999; */
+  background: url(../../../img/timdesk/PreloaderTiny.gif) center no-repeat;
+}
+
+.column-header {
+  width: 240px;
+  position: relative;
+  display: inline-block;
+}
+
+.col_nombre .column-header {
+  width: 480px;
+  position: relative;
+  display: inline-block;
+}
+
+.column-title {
+  min-width: 100px;
+  margin: 0 auto;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.column-order {
+  position: relative;
+  float: right;
+  width: 20px;
+  top: -23px;
+}
+
+.column-order i {
+  color: #1c87a0;
+}
+
+.columna-add {
+  background: #15589b;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 13px;
+}
+
+.columns_modal {
+  background: #15589b;
+  padding: 13px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.cursorPointer:hover {
+  cursor: pointer;
+}
+
+.img-column {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.logo-column {
+  width: 45px;
+  height: 45px;
+}
+
+/*
+.columns_modal{
+  display: inline-block;
+  background: #15589B;
+  color:white;
+  border:1px solid white;
+  width: 100%;
+
+}
+
+.columns_modal a{
+  text-decoration: none;
+  color:white;
+}
+*/
+.modal-header {
+  color: white;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  -webkit-border-top-left-radius: 0px !important;
+  -webkit-border-top-right-radius: 0px !important;
+  -moz--border-top-left-radius: 0px !important;
+  -moz--border-top-right-radius: 0px !important;
+}
+
+.modal-body {
+  overflow-y: auto;
+}
+
+#pagination-bar {
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-right: 30px;
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.button-container {
+  top: 80px;
+}
+/*
+#etiquetas h6{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+
+}
+
+#CargarDatosPersonales{
+  background-color: #5bc0de;
+  cursor:not-allowed;
+  text-decoration: none;
+  color: currentColor;
+
+}
+#CargarDatosLaborales{
+  background-color: #5cb85c;
+  cursor:not-allowed;
+
+  text-decoration: none;
+  color: currentColor;
+}
+#CargarDatosMedicos{
+  background-color: #757575;
+  cursor:not-allowed;
+
+  text-decoration: none;
+  color: currentColor;
+}
+#CargarDatosBancarios{
+  background-color: #59698d;
+  cursor:not-allowed;
+
+  text-decoration: none;
+  color: currentColor;
+}
+
+#datos h1{
+  text-align: center;
+  font-weight: bold;
+}
+*/
+/* .header-screen {
+  display: block;
+  width: 400px;
+  height: 35px;
+  align-items: center;
+} */
+
+.header-title-screen img {
+  display: inline-block;
+  height: 40px;
+}
+
+#list-all-columns {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.info-column {
+  display: flex;
+  /*border: 1px solid #e3e3e3;*/
+  width: 31.3%;
+  height: auto;
+  margin: 10px;
+  flex-direction: row;
+  -webkit-box-shadow: -1px 0px 14px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 14px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 14px -10px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  transition: width 2s;
+}
+
+.info-column:hover {
+  -webkit-box-shadow: 10px 15px 20px 1px #1c87a0;
+  -moz-box-shadow: 10px 15px 20px 1px #1c87a0;
+  box-shadow: 5px 5px 20px 1px #1c87a0;
+  border-radius: 10px;
+  margin: 6px;
+}
+
+.description-column {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 14px;
+  width: 100%;
+}
+.name-column {
+  margin: 10px;
+  padding: 1px;
+  color: #15589b;
+}
+
+.name-column h5 {
+  letter-spacing: 2px;
+  border: 1px solid transparent;
+  text-align: justify;
+}
+
+.text-column {
+  text-align: justify;
+  margin: 10px;
+
+  padding: 1px;
+  color: #15589b;
+}
+
+/*.hideEmployer {
+  width: 230px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}*/
+
+.zoom {
+  transition: transform 2s;
+}
+
+.zoom:hover {
+  transform: scale(5);
+}
+
+.search-tareas.search-table-movible {
+  border-bottom: 1px solid #dbdbdb;
+}

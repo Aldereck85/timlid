@@ -1,0 +1,59 @@
+ .modal-backdrop{
+    opacity:0.98 !important;
+  }
+  .edit-icon {
+    width: 20px;
+    position: relative;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* display: none; */
+}
+
+  .dropdown-menu::before {
+    border: 0;
+  }
+
+  .dropdown-menu::after {
+    border: 0;
+  }
+
+  /* Update */
+  .mb-4, .my-4{
+    margin-bottom: 0rem!important;
+  }
+
+  .pegar{
+    padding-left: 0px;
+  }
+  .php-mvc-pdo-CRUD{
+      background-color: blue;
+  }
+  .disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+  }
+  .dtsb-button{
+    background:darkblue;
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-bottom: 0;
+
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    background-color: cadetblue;
+
+  }

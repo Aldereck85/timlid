@@ -1,0 +1,58 @@
+select:invalid {
+  color: #b1b1b1 !important;
+}
+
+.ss-main .ss-single-selected {
+  background-color: #fff;
+  color: #666;
+  outline: 0;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+}
+
+.ss-main .ss-single-selected .ss-arrow span {
+  border: solid #006dd9;
+  border-width: 0 2px 2px 0;
+}
+
+#tblGeneralDataCashRegisterCut.table,
+#tblCashRegisterCut.table,
+#tblGeneralDataCashRetired.table
+{
+  border: 1px solid #b2b2b2;
+}
+#tblGeneralDataCashRegisterCut thead,
+#tblCashRegisterCut thead,
+#tblGeneralDataCashRetired thead
+{
+  color: #646363;
+  
+}
+
+
+#tblGeneralDataCashRegisterCut thead th,
+#tblCashRegisterCut thead th,
+#tblGeneralDataCashRetired thead th
+{
+  border-top: 0;
+  padding: 0.75rem;
+  border-bottom: 1px solid #b2b2b2;
+  font-weight: bold;
+}
+
+.header_row
+{
+    color:#15589b;
+    font-weight: bold;
+}
+
+#tblGeneralDataCashRegisterCut tbody td,
+#tblCashRegisterCut tbody td,
+#tblGeneralDataCashRetired tbody td
+{
+  border-bottom: 1px solid #b2b2b2 ;
+}
+
+/* .fill-cell{
+  background-color: #b2b2b2;
+} */

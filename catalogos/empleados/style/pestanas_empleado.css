@@ -1,0 +1,72 @@
+#datos h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.swal2-confirm {
+  font-size: 16px !important;
+  margin-left: 10px !important;
+  padding: 2px 6px !important;
+  margin-right: 30px !important;
+  text-decoration: none !important;
+}
+
+.swal2-cancel {
+  font-size: 16px !important;
+  padding: 2px 6px !important;
+  text-decoration: none !important;
+}
+/*
+.swal2-popup {
+  font-size: 0.6rem !important;
+}
+*/
+/*
+.swal2-modal{
+  position: relative;
+  border-radius: 200px !important;
+  height: 10% !important;
+}
+*/
+/*
+.swal2-icon{
+  position: relative !important;
+  left: -45% !important;
+  top: 31% !important;
+}
+*/
+/*
+.swal2-success-circular-line-left, .swal2-success-circular-line-right,.swal2-success-fix{
+  background-color: transparent !important;
+}
+
+.swal2-success{
+  display: inline-block !important;
+  top: 35px;
+}
+*/
+/*
+.swal2-title{
+  position: relative !important;
+  display: inline-flex !important;
+  font-size: 24px !important;
+  top:-40px !important;
+}
+*/
+/*
+.swal2-header{
+  display: inline-flex !important;
+}
+
+.swal2-content,.swal2-title{
+  color:white !important;
+}
+*/
+/*
+.swal2-content{
+  position: relative !important;
+  display: inline-flex !important;
+
+  top:-42px !important;
+}
+*/

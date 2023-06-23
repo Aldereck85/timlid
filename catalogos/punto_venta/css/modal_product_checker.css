@@ -1,0 +1,27 @@
+#img_product_checker,
+#info_product_checker{
+  flex: 1;
+}
+
+#info_product_checker{
+  padding: 40px;
+  position: relative;
+}
+
+#info_product_checker input{
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 25px;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom: 1px solid #a8a8a8;
+  color: #333;
+}
+
+#info_product_checker input:active,
+#info_product_checker input:focus{
+  outline: none;
+}
+

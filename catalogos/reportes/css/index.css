@@ -1,0 +1,5 @@
+.title-card{
+    background-color: var(--color-primario);
+    color: var(--color-claro) !important;
+    text-align: center;
+}

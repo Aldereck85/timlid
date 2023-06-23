@@ -1,0 +1,225 @@
+table.dataTable thead {
+  color: #646363;
+}
+table.dataTable thead th {
+  font-weight: 400;
+}
+table.dataTable thead th,
+table.dataTable thead td {
+  border: 0;
+  border-top: 0;
+  padding: 0.75rem;
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+  color: var(--color-claro);
+  background-color: var(--color-primario);
+  border-bottom: 1px solid var(--gris-oscuro);
+}
+
+.dataTables_scrollHead table.dataTable tr th:not(:last-child)::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background-color: #ffffff49;
+  width: 1px;
+  height: 70%;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+  border-bottom: 1px solid #e3e6f0a8;
+}
+.table td,
+.table th {
+  /* border-top: 1px solid #e3e6f07d; */
+}
+/* table.dataTable tbody tr td:last-of-type {
+  text-align: center;
+} */
+.dataTables_wrapper .dataTables_paginate {
+  padding-top: 0;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  border: 0;
+  padding: 3px;
+  color: #646363 !important;
+  background: transparent !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  border: 0;
+  background: transparent !important;
+  color: var(--color-primario) !important;
+}
+.btn-table-custom {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  margin-right: 25px;
+}
+.btn-table-custom:hover {
+  text-decoration: underline;
+}
+.btn-table-custom--blue {
+  color: var(--color-primario);
+}
+.btn-table-custom--turquoise {
+  color: var(--azul-claro);
+}
+.btn-table-custom--gray {
+  color: var(--gris-oscuro);
+}
+.btn-table-custom--green {
+  color: var(--verde-claro);
+}
+.btn-table-custom--red {
+  color: var(--color-rojo);
+}
+
+.btn-table-custom--blue-light {
+  color: var(--azul-oscuro);
+}
+
+.btn-table-custom--blue-lightest {
+  color: var(--azul-claro);
+}
+
+.btn-table-custom--yellow {
+  color: var(--color-amarillo-fuerte);
+}
+
+.btn-table-custom--dark {
+  color: var(--color-oscuro);
+}
+
+.btn-table-custom--orange {
+  color: var(--naranja-oscuro);
+}
+
+/* NEW CUSTOM TABLE */
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  border-bottom: 2px solid var(--color-primario);
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  border-bottom: 2px solid var(--color-primario);
+}
+
+.dataTables_filter label {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.dataTables_filter label input {
+  border: 0 !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.underline-turquoise {
+  border-bottom: 2px solid var(--azul-claro);
+}
+.underline-gray {
+  color: var(--gris-oscuro);
+  border-bottom: 2px solid var(--gris-oscuro);
+}
+.underline-green {
+  color: var(--verde-claro);
+  border-bottom: 2px solid var(--verde-claro);
+}
+.underline-red {
+  border-bottom: 2px solid var(--color-rojo);
+}
+
+.underline-blue-light {
+  border-bottom: 2px solid var(--azul-oscuro);
+}
+
+.underline-yellow {
+  border-bottom: 2px solid var(--color-amarillo-fuerte);
+}
+
+.underline-dark {
+  border-bottom: 2px solid var(--color-oscuro);
+}
+
+.underline-orange {
+  border-bottom: 2px solid var(--naranja-oscuro);
+}
+
+table.dataTable tbody tr td,
+table.dataTable tbody tr td i,
+table.dataTable tbody tr td a,
+table.dataTable tbody tr td img, 
+table.dataTable tbody tr td span {
+  text-align: center;
+}
+
+table.dataTable tbody tr td:last-of-type,
+table.dataTable tbody tr td:last-of-type i,
+table.dataTable tbody tr td:last-of-type a,
+table.dataTable tbody tr td:last-of-type img,
+table.dataTable tbody tr td:last-of-type span {
+  color: var(--color-primario);
+  text-align: center;
+}
+
+table.dataTable tbody tr td:first-of-type,
+table.dataTable tbody tr td:first-of-type i,
+table.dataTable tbody tr td:first-of-type a,
+table.dataTable tbody tr td:first-of-type img,
+table.dataTable tbody tr td:first-of-type span {
+  text-align: left;
+}
+
+.internal-table {
+  border: 0;
+}
+
+table.dataTable tbody tr td.dataTables_empty {
+  text-align: center;
+  color: #858796;
+}
+
+#btn-filters,
+#tblVentasDirectas_paginate,
+.dt-buttons {
+  font-size: 14px;
+}
+
+.inputTable {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dataTables_scroll {
+  /* border: 1px solid var(--gris-oscuro); */
+}
+
+tbody,
+tbody *,
+tbody *:hover,
+tbody *:visited,
+tbody *:active {
+  color: var(--color-primario);
+}
+
+table.dataTable tbody tr:nth-child(even) {
+  background-color: var(--gris-blanco);
+}
+
+
+.dataTables_wrapper .container-fluid{
+  padding: 0;
+}
+
+.dataTables_wrapper .container-fluid .row{
+  margin: 0;
+  margin-bottom: 1rem;
+}

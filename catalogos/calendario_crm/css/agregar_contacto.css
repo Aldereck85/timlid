@@ -1,0 +1,12 @@
+.ss-main .ss-single-selected {
+  background-color: #fff;
+  color: #666;
+  outline: 0;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+}
+
+.ss-main .ss-single-selected .ss-arrow span {
+  border: solid var(--primario-oscuro);
+  border-width: 0 2px 2px 0;
+}

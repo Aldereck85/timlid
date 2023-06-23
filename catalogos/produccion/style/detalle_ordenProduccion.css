@@ -1,0 +1,107 @@
+select:invalid {
+  color: #b1b1b1 !important;
+}
+
+.ss-main .ss-single-selected {
+  background-color: #fff;
+  color: #666;
+  outline: 0;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+}
+
+.ss-main .ss-single-selected .ss-arrow span {
+  border: solid #006dd9;
+  border-width: 0 2px 2px 0;
+}
+
+.dropdown-menu:after,
+.arrow-up:before {
+  border-bottom: 10px solid transparent;
+}
+
+.btn-downloads{
+  margin-bottom: 20px;
+}
+
+#estatusOrdenProduccionH2
+{
+  margin-right: 20px;
+  margin-left: 20px;
+  display: inline-flex;
+}
+
+#editar_cantidad_habilitar,
+#editar_fechaPrevista_habilitar,
+#editar_responsable_habilitar,
+#editar_grupoTrabajo_habilitar
+{
+  display: inline-block;
+}
+
+#cmbResponsable,
+#cmbGrupoTrabajo,
+#cmbResponsable_habilitar,
+#cmbGrupoTrabajo_habilitar,
+#fechaTermino
+{
+  display: none;
+}
+
+table.dataTable tbody tr td:last-of-type, table.dataTable tbody tr td:last-of-type i, table.dataTable tbody tr td:last-of-type a, table.dataTable tbody tr td:last-of-type img {
+  color: #858796;
+  text-align: left !important;
+}
+
+.badge-primary {
+  color: #fff !important;
+  background-color: #4e73df !important;
+}
+
+.badge-info {
+  color: #fff !important;
+  background-color: #36b9cc !important;
+}
+
+.badge-success {
+  color: #fff !important;
+  background-color: #1cc88a !important;
+}
+
+.badge-warning {
+  color: #fff !important;
+  background-color: #e74a3b !important;
+}
+
+.left-dot{
+  margin-left: 20px;
+  display: inline-flex;
+}
+
+
+table thead th,
+table thead td {
+  border-top: 0 !important;
+  padding: 0.75rem !important;
+  border-bottom: 1px solid var(--azul-oscuro) !important;
+}
+
+table thead th {
+  font-weight: 400;
+}
+
+table th, table td {
+  box-sizing: content-box;
+}
+
+table thead {
+  color: #646363;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+  border-collapse: separate;
+  border-spacing: 0;
+}

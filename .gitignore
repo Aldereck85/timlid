@@ -1,0 +1,9 @@
+.DS_Store
+node_modules
+img/timdesk/animacion-bolitas.gif
+.env
+*.sql
+*.txt
+include
+facturacion_copy
+empresas/archivos

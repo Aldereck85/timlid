@@ -1,0 +1,16 @@
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  background-image: none;
+}
+
+/* .contrasenia-nueva {
+  position: relative;
+}
+
+.contrasenia-nueva i {
+  z-index: 100;
+  cursor: pointer;
+  position: absolute;
+  top: 42px;
+  right: 14px;
+} */

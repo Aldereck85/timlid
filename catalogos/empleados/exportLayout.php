@@ -1,0 +1,8 @@
+<?php
+require_once('../../vendor/shuchkin/simplexlsxgen/src/SimpleXLSXGen.php');
+//Arreglo de las cabeceras del excel
+$book = [['<b><style bgcolor="#f9ed00">Nombre</style></b>','<b><style bgcolor="#f9ed00">Apellido paterno</style></b>','<b>Apellido materno</b>','<b>Estado civil</b>','<b><style bgcolor="#f9ed00">Género</style></b>','<b><style bgcolor="#f9ed00">Rol inicial</style></b>','<b>CURP</b>','<b>RFC</b>','<b>Fecha de nacimiento</b>','<b>Teléfono</b>','<b>Correo</b>','<b>Calle</b>','<b>No. Exterior</b>','<b>No. Interior</b>','<b>Colonia</b>','<b><style bgcolor="#f9ed00">Código postal</style></b>','<b>Ciudad</b>','<b>Estado</b>','<b>Régimen fiscal</b>','<b>Fecha de ingreso</b>','<b>Tipo de contrato</b>','<b>Puesto</b>','<b>Riesgo del puesto</b>','<b>Régimen</b>','<b>Turno</b>','<b>Sucursal</b>','<b>Sueldo</b>','<b>Período de pago</b>','<b>INFONAVIT</b>','<b>Deuda interna</b>','<b>Número de Seguro Social (NSS)</b>','<b>Tipo de sangre</b>','<b>Contacto de emergencia</b>','<b>Numero de emergencia</b>','<b>Alergias</b>','<b>Notas</b>','<b>Donador de órganos</b>','<b>Banco</b>','<b>Cuenta bancaria</b>','<b>CLABE</b>','<b>Número de tarjeta</b>'],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],['<style bgcolor="#f9ed00">*Dato obligatorio</style>']];
+
+$xlsx = Shuchkin\SimpleXLSXGen::fromArray( $book, 'Empleados' );
+$xlsx->downloadAs('empleados.xlsx'); // or downloadAs('books.xlsx') or $xlsx_content = (string) $xlsx 
+?>

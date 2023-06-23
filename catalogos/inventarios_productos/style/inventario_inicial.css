@@ -1,0 +1,298 @@
+.excelDataTableButton{
+    background-color: transparent;
+    border: none;
+}
+
+.dt-buttons :hover{
+    background-color: transparent;
+    border: none;
+}
+
+.dt-buttons :focus{
+    background-color: transparent;
+    border: none;
+}
+
+div.dataTables_wrapper div.dt-buttons div.btn-group div.flex-wrap{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lblSucursal{
+    top: 15px;
+}
+
+#cmbSucursales{
+    top: 30px; 
+    left:80px;
+}
+
+#lblCategorias{
+    top: 13px; 
+    left: 80px;
+}
+
+#btnCategorias{
+    top: 14px; 
+    left: 100px; 
+    width: 260px; 
+    outline: none;
+}
+
+#imgCategorias{ 
+    top: 10px;
+}
+
+#linea{
+    top: 33px; 
+    left: 150px; 
+    border-style: solid; 
+    height: 1px; 
+    width: 220px; 
+    border-color: #15589b;
+}
+
+#collapseCategorias{
+    top: 50px; 
+    left: 130px; 
+    width: 200px;
+}
+
+#btnGuardar{
+    top: 30px;
+    right: 180px;
+}
+
+#btnFinalizar{
+    top: 30px;
+    right: 10px;
+}
+
+@media (max-width: 767px){
+    #lblCategorias{
+        top: 45px;
+        left: -230px;
+    }
+
+    #btnCategorias{
+        top: 90px; 
+        left: -210px;
+    }
+    
+    #linea{
+        top: 105px; 
+        left: -155px;
+    }
+    
+    #collapseCategorias{
+        top: 130px; 
+        left: -160px;
+    }
+}
+
+@media (max-width: 736px){
+    #lblCategorias{
+        top: 45px;
+        left: -220px;
+    }
+
+    #btnCategorias{
+        top: 90px; 
+        left: -200px;
+    }
+    
+    #linea{
+        top: 105px; 
+        left: -145px;
+    }
+    
+    #collapseCategorias{
+        top: 130px; 
+        left: -150px;
+    }
+}
+
+@media (max-width: 706px){
+    #lblCategorias{
+        top: 45px;
+        left: -210px;
+    }
+
+    #btnCategorias{
+        top: 90px; 
+        left: -190px;
+    }
+    
+    #linea{
+        top: 105px; 
+        left: -135px;
+    }
+    
+    #collapseCategorias{
+        top: 130px; 
+        left: -140px;
+    }
+}
+
+@media (max-width: 680px){
+    #lblCategorias{
+        top: 45px;
+        left: -200px;
+    }
+
+    #btnCategorias{
+        top: 90px; 
+        left: -180px;
+    }
+    
+    #linea{
+        top: 105px; 
+        left: -125px;
+    }
+    
+    #collapseCategorias{
+        top: 130px; 
+        left: -130px;
+    }
+}
+
+@media (max-width: 645px){
+    #lblCategorias{
+        top: 45px;
+        left: -190px;
+    }
+
+    #btnCategorias{
+        top: 90px; 
+        left: -170px;
+    }
+    
+    #linea{
+        top: 105px; 
+        left: -115px;
+    }
+    
+    #collapseCategorias{
+        top: 130px; 
+        left: -120px;
+    }
+}
+
+@media (max-width: 620px){
+    #lblCategorias{
+        top: 45px;
+        left: -180px;
+    }
+
+    #btnCategorias{
+        top: 90px; 
+        left: -160px;
+    }
+    
+    #linea{
+        top: 105px; 
+        left: -105px;
+    }
+    
+    #collapseCategorias{
+        top: 130px; 
+        left: -110px;
+    }
+}
+
+@media (max-width: 600px){
+    #lblCategorias{
+        top: 45px;
+        left: -170px;
+    }
+
+    #btnCategorias{
+        top: 90px; 
+        left: -150px;
+    }
+    
+    #linea{
+        top: 105px; 
+        left: -95px;
+    }
+    
+    #collapseCategorias{
+        top: 130px; 
+        left: -100px;
+    }
+}
+
+@media (max-width: 575px){
+    #lblCategorias{
+        top: 90px;
+        left: 0px;
+    }
+
+    #btnCategorias{
+        top: 90px; 
+        left: 20px;
+    }
+    
+    #linea{
+        top: 105px; 
+        left: 75px;
+    }
+    
+    #collapseCategorias{
+        top: 130px; 
+        left: 80px;
+    }
+}
+
+@media (max-width: 400px){
+    #imgCategorias{
+        right: 30px;
+    }
+
+    #linea{
+        width: 180px;
+    }
+}
+
+@media (max-width: 768px){
+    #btnGuardar{
+        top: 60px;
+        left: 10px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    #btnFinalizar{
+        top: 60px;
+        left: 180px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 400px){    
+    #btnFinalizar{
+        left: 150px;
+        margin-left: 0px;
+    }
+}
+
+table p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 242px;
+    white-space: nowrap;
+}
+
+.tooltip {
+    pointer-events: none;
+  }
+
+  #tblInventariosIniciales > thead > tr > th:nth-child(1){
+      display: none;
+  }
+
+  #tblInventariosIniciales > thead > tr > th:nth-child(2){
+      display: none;
+  }

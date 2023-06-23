@@ -1,0 +1,11 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "stripe/stripe-php": "^7.97",
+        "facturapi/facturapi-php": "^1.7",
+        "shuchkin/simplexlsxgen": "^1.2",
+        "phpoffice/phpspreadsheet": "^1.23",
+        "mike42/escpos-php": "^4.0",
+        "dompdf/dompdf": "^2.0"
+    }
+}

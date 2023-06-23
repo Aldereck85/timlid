@@ -1,0 +1,99 @@
+.default-checkmark{
+	width: 20px;
+    height: 20px;
+    background-color: #e1e1e1;
+    border-radius: 50%;
+    border: 1px solid #b8b8b8;
+    cursor: pointer;
+}
+
+.circle-display{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-display.check-done{
+	animation: background-done 0.75s;
+}
+
+.circle-display.check-undone{
+	animation: background-undone 0.75s;
+}
+
+@keyframes background-done {
+	  0% {
+	    background-color: #28a745;
+	  }
+	  65% {
+	    background-color: #4ace68;
+	  }
+	  84% {
+	    background-color: #a3ffb8;
+	  }
+	  100% {
+	    background-color: white;
+	  }
+}
+
+@keyframes background-undone {
+	  0% {
+	    background-color: #b8b8b8;
+	  }
+	  65% {
+	    background-color: #cacaca;
+	  }
+	  84% {
+	    background-color:#e1e1e1;
+	  }
+	  100% {
+	    background-color: white;
+	  }
+}
+
+.circle-display.check-done-sub{
+	animation: background-done-sub 0.75s;
+}
+
+@keyframes background-done-sub {
+	  0% {
+	    background-color: #40a09d;
+	  }
+	  65% {
+	    background-color: #18a39f;
+	  }
+	  84% {
+	    background-color: #008483;
+	  }
+	  100% {
+	    background-color: white;
+	  }
+}
+
+.circle-90px{
+	width: 150px !important;
+}
+
+.success-checkmark{
+    width: 35px;
+    height: 35px;
+    background-color: #28c67a;
+    border-radius: 50%;
+    border: 1px solid #28c67a;
+    cursor: pointer;
+    background-image: url(../../../../img/timdesk/checkmark.svg);
+    background-size: 34px;
+    background-repeat: no-repeat;
+}
+
+.sub-success-checkmark{
+    width: 35px;
+    height: 35px;
+    background-color: #40a09d;
+    border-radius: 50%;
+    border: 1px solid #40a09d;
+    cursor: pointer;
+    background-image: url(../../../../img/timdesk/checkmark.svg);
+    background-size: 34px;
+    background-repeat: no-repeat;
+}

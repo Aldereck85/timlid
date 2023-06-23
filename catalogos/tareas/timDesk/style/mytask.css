@@ -1,0 +1,20 @@
+.mis-tareas{
+    display: inline-block;
+    background-image: url(../../../../img/timdesk/mis_tareas.svg);
+    width: 25px;
+    height: 25px;
+}
+
+.mis-tareas:hover{
+    cursor: pointer;
+}
+.all-tareas{
+    display: inline-block;
+    background-image: url(../../../../img/timdesk/todas_tareas.svg);
+    width: 25px;
+    height: 25px;
+}
+
+.all-tareas:hover{
+    cursor: pointer;
+}

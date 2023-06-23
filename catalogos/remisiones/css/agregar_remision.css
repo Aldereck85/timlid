@@ -1,0 +1,295 @@
+select:invalid {
+  color: #b1b1b1 !important;
+}
+
+.ss-main .ss-single-selected {
+  background-color: #fff;
+  color: #666;
+  outline: 0;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+}
+
+.ss-main .ss-single-selected .ss-arrow span {
+  border: solid #006dd9;
+  border-width: 0 2px 2px 0;
+}
+
+.dropdown-menu:after,
+.arrow-up:before {
+  border-bottom: 10px solid transparent;
+}
+
+.select-main {
+  position: relative;
+  display: inline-block;
+  user-select: none;
+  color: #666;
+  width: 100%;
+  border-bottom: 1px solid #006dd9;
+}
+
+.select-main .select-body {
+  display: flex;
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  padding: 6px;
+  background-color: #fff;
+  color: #666;
+  outline: 0;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+}
+.select-main .select-body .placeholder {
+  flex: 1 1 100%;
+  text-align: left;
+  width: calc(100% - 30px);
+  line-height: 1em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top: 8px;
+}
+
+.select-main .select-body .placeholder {
+  width: auto;
+}
+
+.select-main .select-body .placeholder .select-disabled {
+  color: #dedede;
+}
+
+.select-main .select-body .select-deselect.select-hide {
+  display: none;
+}
+
+.select-main .select-body .select-deselect {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 0 1 auto;
+  margin: 0 6px;
+  font-weight: 700;
+}
+
+.select-main .selsect-body .select-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 0 1 auto;
+  margin: 0 6px;
+}
+
+.select-main .select-body .select-arrow span.select-arrow-down {
+  transform: rotate(45deg);
+  margin: -3px 0 0;
+}
+
+.select-main .select-body .select-arrow span.select-arrow-up {
+  transform: rotate(-135deg);
+  margin: 3px 0 0;
+}
+
+.select-main .select-body .select-arrow span {
+  border: solid #006dd9;
+  border-width: 0 2px 2px 0;
+}
+
+.select-main .select-body .select-arrow span {
+  display: inline-block;
+  padding: 3px;
+  transition: transform 0.2s, margin 0.2s;
+}
+
+.select-content {
+  position: absolute;
+  width: 100%;
+  margin: -1px 0 0;
+  box-sizing: border-box;
+  border: 1px solid #dcdee2;
+  z-index: 1010;
+  background-color: #fff;
+  transform-origin: center top;
+  transition: transform 0.2s, opacity 0.2s;
+  opacity: 0;
+  transform: scaleY(0);
+}
+
+.select-content.select-open {
+  display: block;
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.select-content .select-search {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 8px 6px;
+  color: #006dd9;
+}
+
+.select-content .select-search input {
+  border: none;
+  border-bottom: 1px solid #006dd9;
+  outline: none;
+  background: transparent !important;
+  width: 100%;
+  color: #006dd9;
+}
+
+.select-content .select-list {
+  max-height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: left;
+  color: #006dd9;
+}
+
+.select-content .select-list .select-option {
+  padding: 2px 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.select-content .select-list .select-option .check-select-option-disabled {
+  display: none;
+}
+
+.select-content .select-list .select-option .check-select-option-enabled {
+  width: 20px;
+  float: right;
+}
+
+.select-content .select-list .select-option:hover {
+  background-color: #006dd9;
+  color: #fff;
+}
+
+.select-content .select-list .select-option .check-select-option:hover {
+  /*background-color: #006dd9;
+  color: #fff;*/
+  fill: white;
+}
+
+.check-select-option {
+  width: 20px;
+  float: right;
+}
+
+.placeholder-text-select {
+  background-color: #006dd9;
+  color: #fff;
+  padding: 2px 5px 2px 5px;
+  border-radius: 5px;
+  font-size: 0.85em;
+  margin-left: 1px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.option-discart {
+  margin-left: 2px;
+  margin-bottom: 3px;
+
+  width: 9px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(59deg)
+    brightness(101%) contrast(103%);
+}
+
+.subtotal,
+.impuestos,
+.total,
+.productos-cliente {
+  display: none;
+}
+/*
+.subtotal {
+  position: relative;
+  left: 84%;
+  border-top: 1px solid #e3e6f0;
+  padding: 0.75rem;
+  width: 16%;
+}
+
+#subtotal {
+  float: right;
+  margin-right: 4.2em;
+}
+
+.impuestos {
+  position: relative;
+  left: 84%;
+  border-top: 1px solid #e3e6f0;
+  padding: 0.75rem;
+  width: 16%;
+  min-height: 100px;
+  overflow: hidden;
+}
+
+#impuestos {
+  float: right;
+  margin-right: 2em;
+}
+
+.total {
+  position: relative;
+  left: 84%;
+  border-top: 1px solid #e3e6f0;
+  padding: 0.75rem;
+  width: 16%;
+}
+
+#total {
+  float: right;
+  margin-right: 4.2em;
+*margin-left: 5.5em;
+}
+*/
+#cargarProductosPedidos {
+  margin-top: 15px;
+}
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  opacity: 0.6;
+  background: url("../../../img/timdesk/Preloader.gif") 50% 50% no-repeat
+    rgb(249, 249, 249);
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+label,
+h2 {
+  color: #858796 !important;
+}
+
+.not_border_top{
+  border-top: none !important;
+}
+
+.not_border_top_9{
+  width:8%;
+  border-top: none !important;
+}
+
+.head-label-subtotal{
+  width:11.5%;
+}
+
+.head-quantity-subtotal{
+  width:22.5%;
+}

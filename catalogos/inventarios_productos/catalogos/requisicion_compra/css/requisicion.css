@@ -1,0 +1,67 @@
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+.link {
+  color: #4e73df;
+}
+
+.header-title-screen img {
+  display: inline-block;
+  height: 40px;
+}
+
+.total {
+  color: white;
+  background-color: #006dd9;
+  font-size: 24px;
+}
+
+.redondearAbajoIzq {
+  border-radius: 0px 0px 0px 10px;
+}
+
+.redondearAbajoDer {
+  border-radius: 0px 0px 10px 0px;
+}
+
+.readEditPermissions {
+  display: block;
+}
+
+.readNotEditPermissions {
+  opacity: .6 ;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+.excelDataTableButton {
+  background-color: transparent;
+  border: none;
+}
+
+input:disabled {
+  background-color: transparent!important;
+  border: none;
+}
+
+textarea:disabled {
+  background-color: transparent!important;
+  border: none;
+}
+
+input:read-only {
+  background-color: transparent!important;
+  border: none;
+}  
+
+textarea:read-only {
+  background-color: transparent!important;
+  border: none;
+}  
+
+.ss-disabled {
+  background-color: transparent!important;
+  border: none;
+}

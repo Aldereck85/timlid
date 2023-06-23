@@ -1,0 +1,260 @@
+#tblProyectos {
+  background-color: white;
+  font-weight: normal !important;
+}
+
+#tblProyectos tbody {
+  text-align: left;
+  font-weight: normal !important;
+  padding-left: 10px;
+}
+#tblProyectos tbody tr:hover {
+  /*color: white !important;*/
+  background-color: rgba(192, 247, 231, 3) !important;
+}
+#tblProyectos tbody tr:hover .btnEdit {
+  display: inline !important;
+}
+#tblProyectos th {
+  color: #fff !important;
+  background-color: #006dd9 !important;
+  font-weight: normal !important;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#tblEntradasProductos {
+  background-color: white;
+  font-weight: normal !important;
+}
+
+#tblEntradasProductos_filter .form-control {
+  background-image: url("../img/timdesk/buscar.svg");
+  background-position: 4px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding-left: 28px;
+  height: 30px;
+  border: none; /* 1px solid rgba(9, 113, 163, 1);*/
+  border-radius: none;
+}
+#tblEntradasProductos tbody {
+  text-align: left;
+  font-weight: normal !important;
+  padding-left: 10px;
+}
+#tblEntradasProductos tbody tr:hover {
+  /*color: white !important;*/
+  background-color: rgba(192, 247, 231, 3) !important;
+}
+#tblEntradasProductos tbody tr:hover .btnEdit {
+  display: inline !important;
+}
+#tblEntradasProductos th {
+  color: #fff !important;
+  background-color: #006dd9 !important;
+  font-weight: normal !important;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#tblInventarios {
+  background-color: white;
+  font-weight: normal !important;
+}
+
+#tblInventarios_filter .form-control {
+  background-image: url("../img/timdesk/buscar.svg");
+  background-position: 4px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding-left: 28px;
+  height: 30px;
+  border: none; /* 1px solid rgba(9, 113, 163, 1);*/
+  border-radius: none;
+}
+#tblInventarios tbody {
+  text-align: left;
+  font-weight: normal !important;
+  padding-left: 10px;
+}
+#tblInventarios tbody tr:hover {
+  /*color: white !important;*/
+  background-color: rgba(192, 247, 231, 3) !important;
+}
+#tblInventarios tbody tr:hover .btnEdit {
+  display: inline !important;
+}
+
+#tblInventarios th {
+  color: #fff !important;
+  background-color: #006dd9 !important;
+  font-weight: normal !important;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#tblTiposEntradas {
+  background-color: white;
+  font-weight: normal !important;
+}
+
+#tblTiposEntradas_filter .form-control {
+  background-image: url("../img/timdesk/buscar.svg");
+  background-position: 4px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding-left: 28px;
+  height: 30px;
+  border: none; /* 1px solid rgba(9, 113, 163, 1);*/
+  border-radius: none;
+}
+#tblTiposEntradas tbody {
+  text-align: left;
+  font-weight: normal !important;
+  padding-left: 10px;
+}
+#tblTiposEntradas tbody tr:hover {
+  /*color: white !important;*/
+  background-color: rgba(192, 247, 231, 3) !important;
+}
+#tblTiposEntradas tbody tr:hover .btnEdit {
+  display: inline !important;
+}
+#tblTiposEntradas th {
+  color: #fff !important;
+  background-color: #006dd9 !important;
+  font-weight: normal !important;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#tblMarcas {
+  background-color: white;
+  font-weight: normal !important;
+}
+
+#tblMarcas_filter .form-control {
+  background-image: url("../img/timdesk/buscar.svg");
+  background-position: 4px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding-left: 28px;
+  height: 30px;
+  border: none; /* 1px solid rgba(9, 113, 163, 1);*/
+  border-radius: none;
+}
+#tblMarcas tbody {
+  text-align: left;
+  font-weight: normal !important;
+  padding-left: 10px;
+}
+#tblMarcas tbody tr:hover {
+  /*color: white !important;*/
+  background-color: rgba(192, 247, 231, 3) !important;
+}
+#tblMarcas tbody tr:hover .btnEdit {
+  display: inline !important;
+}
+#tblMarcas th {
+  color: #fff !important;
+  background-color: #006dd9 !important;
+  font-weight: normal !important;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#tblProductos {
+  background-color: white;
+  font-weight: normal !important;
+}
+
+#tblProductos_filter .form-control {
+  background-image: url("../img/timdesk/buscar.svg");
+  background-position: 4px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding-left: 28px;
+  height: 30px;
+  border: none; /* 1px solid rgba(9, 113, 163, 1);*/
+  border-radius: none;
+}
+#tblProductos tbody {
+  text-align: left;
+  font-weight: normal !important;
+  padding-left: 10px;
+}
+#tblProductos tbody tr:hover {
+  /*color: white !important;*/
+  background-color: rgba(192, 247, 231, 3) !important;
+}
+#tblProductos tbody tr:hover .btnEdit {
+  display: inline !important;
+}
+#tblProductos th {
+  color: #fff !important;
+  background-color: #006dd9 !important;
+  font-weight: normal !important;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#tblAgregarEntradasProductos,
+#tblEditarEntradasProductos {
+  background-color: white;
+  font-weight: normal !important;
+}
+
+#tblAgregarEntradasProductos_filter .form-control,
+#tblEditarEntradasProductos_filter .form-control {
+  background-image: url("../img/timdesk/buscar.svg");
+  background-position: 4px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding-left: 28px;
+  height: 30px;
+  border: none; /* 1px solid rgba(9, 113, 163, 1);*/
+  border-radius: none;
+}
+#tblAgregarEntradasProductos tbody,
+#tblEditarEntradasProductos tbody {
+  text-align: left;
+  font-weight: normal !important;
+  padding-left: 10px;
+}
+#tblAgregarEntradasProductos tbody tr:hover,
+#tblEditarEntradasProductos tbody tr:hover {
+  /*color: white !important;*/
+  background-color: rgba(192, 247, 231, 3) !important;
+}
+#tblAgregarEntradasProductos tbody tr:hover .btnEdit,
+#tblEditarEntradasProductos tbody tr:hover .btnEdit {
+  display: inline !important;
+}
+#tblAgregarEntradasProductos th,
+#tblEditarEntradasProductos th {
+  color: #fff !important;
+  background-color: #006dd9 !important;
+  font-weight: normal !important;
+  text-align: left;
+  padding-left: 10px;
+  font-family: arialRoundedEsp !important;
+}

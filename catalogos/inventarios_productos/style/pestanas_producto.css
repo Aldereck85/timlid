@@ -1,0 +1,36 @@
+#datos h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* .swal2-confirm {
+  font-size: 16px !important;
+  margin-left: 10px !important;
+  padding: 2px 6px !important;
+  margin-right: 30px !important;
+  text-decoration: none !important;
+}
+
+.swal2-cancel {
+  font-size: 16px !important;
+  padding: 2px 6px !important;
+  text-decoration: none !important;
+}
+ */
+.readEditPermissions {
+  display: block;
+}
+
+.readNotEditPermissions {
+  opacity: .6 ;
+  background-repeat: no-repeat;
+  pointer-events: none ;
+}
+
+.textData{
+  font-size: large;
+}
+
+.textBlue{
+  color: var(--azul-mas-oscuro);
+}

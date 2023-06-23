@@ -1,0 +1,51 @@
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+.link{
+  color: #4e73df;
+}
+
+/* .header-screen{
+  display: block;
+  width:400px;
+  height: 35px;
+  align-items: center;
+  vertical-align: middle;
+} */
+
+.header-title-screen img {
+  display: inline-block;
+  height: 40px;
+}
+
+.dataTables_wrapper .dt-buttons {
+  position: relative;
+  left: 1400px;
+  display: inline-flex;
+}
+
+#myButton{
+
+  /*position: relative;*/
+  /*display: inline-flex;*/
+
+}
+
+input,h6,h1,label,h4,button,.card-header,select,span,th,tr,td{
+  font-family: arialRoundedEsp !important;
+}
+
+.button-icon-container:hover + .button-text-container {
+  width:170px !important;
+}
+
+td{
+  font-weight: normal !important;
+}
+th{
+  font-weight: bold !important;
+}
+
+.modal-header{
+  border-radius: 0 !important;
+}

@@ -1,0 +1,176 @@
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+.link {
+  color: #4e73df;
+}
+
+/* .header-screen {
+  display: block;
+  width: 400px;
+  height: 35px;
+  align-items: center;
+} */
+
+.header-title-screen img {
+  display: inline-block;
+  height: 40px;
+}
+
+#tblAgregarEntradasProductos_filter {
+  display: none;
+}
+
+#tblAgregarEntradasProductos_paginate {
+  display: none;
+}
+
+select:invalid {
+  color: #b1b1b1;
+}
+
+.ss-main .ss-single-selected {
+  background-color: #fff;
+  color: #666;
+  outline: 0;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+}
+
+.ss-main .ss-single-selected .ss-arrow span {
+  border: solid #006dd9;
+  border-width: 0 2px 2px 0;
+}
+
+.dropdown-menu:after,
+.arrow-up:before {
+  border-bottom: 10px solid transparent;
+}
+
+#btnAgregarEntrada {
+  font-size: 16px;
+}
+
+/*.data-container {
+  position: relative;
+  display: inline-flex;
+  margin-left: 12px;
+  margin-right: -20px;
+  width: 95%;
+
+  //border:1px solid;
+}*/
+
+.data-container label {
+  color: #006dd9;
+  font-weight: bold;
+}
+
+.opacidad {
+  background-color: rgba(196, 194, 194, 0.288);
+}
+
+.data-container .purchases-disabled,
+.data-container .transfer-disabled,
+.data-container .directBranch-disabled,
+.data-container .directProvider-disabled,
+.data-container .directCustomer-disabled {
+  position: relative;
+  display: inline-flex;
+  margin-left: 12px;
+  width: 100%;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 600ms, visibility 600ms;
+}
+
+.button-container {
+  display: flex;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 600ms, visibility 600ms;
+}
+
+.repayment-disabled,
+.manufacturingInput-disabled,
+.adjustment-disabled {
+  width: 15% !important;
+  /*border:1px solid;*/
+}
+
+#fileXml {
+  display: none;
+}
+
+#output {
+  width: 230px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #666;
+  /*border: 1px solid;*/
+  /*margin-top:10px;*/
+}
+
+#fileXml_alt {
+  margin-left: -1px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#txtLote {
+  display: none;
+}
+
+#txtNoSerie {
+  display: none;
+}
+/*
+#chkNoSerie{
+  margin-left:12px;
+}
+*/
+
+.textTableInactivo {
+  color: rgba(196, 194, 194, 0.288) !important;
+}
+
+.textTableInactivo {
+  color: rgba(196, 194, 194, 0.288) !important;
+}
+
+input:disabled {
+  background-color: transparent !important;
+  border: none;
+}
+
+textarea:disabled {
+  background-color: transparent !important;
+  border: none;
+}
+
+input:read-only {
+  background-color: transparent !important;
+  border: none;
+}
+
+textarea:read-only {
+  background-color: transparent !important;
+  border: none;
+}
+
+.ss-disabled {
+  background-color: transparent !important;
+  border: none;
+}

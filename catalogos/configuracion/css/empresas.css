@@ -1,0 +1,45 @@
+#fileCer,
+#fileKey,
+#fileLogo,
+#fileUpdateCer,
+#fileUpdateKey,
+#fileUpdateLogo {
+  display: none;
+}
+
+#fileCerName,
+#fileKeyName,
+#fileLogoName,
+#fileUpdateCerName,
+#fileUpdateKeyName,
+#fileUpdateLogoName {
+  width: 30%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid #BBB;
+  text-align: center;
+  cursor: pointer;
+}
+
+label {
+  color: #646363;
+}
+
+#uploadFileCer,
+#uploadFileKey,
+#uploadFileLogo,
+#uploadFileUpdateCer,
+#uploadFileUpdateKey,
+#uploadFileUpdateLogo {
+  text-align: center;
+  border: none;
+  background-color: white;
+  color: #0e9e69;
+  font-weight: bolder;
+  text-overflow: ellipsis;
+}
+
+.inputFilePadding{
+  border-bottom: 1px solid var(--azul-oscuro);
+  padding: 6px 12px 6px 0;
+}

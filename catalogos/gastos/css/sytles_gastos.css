@@ -1,0 +1,26 @@
+.referencia{
+    color: var(--color-primario);
+    float: right;
+    padding-right: 5%;
+}
+
+/* .card-expense,
+.card-expense-header,
+.card-expense-footer
+{
+
+} */
+.card-expense{
+    width: 18rem;
+    border-left: 1px solid #006dd9;
+    border-right: 1px solid #006dd9;
+    margin:0 5rem 5rem 0;
+}
+
+.card-expense-header,
+.card-expense-footer
+{
+    background-color:#006dd9;
+    color:#fff;
+}
+

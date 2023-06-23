@@ -1,0 +1,75 @@
+select:invalid {
+  color: #b1b1b1 !important;
+}
+
+.ss-main .ss-single-selected {
+  background-color: #fff;
+  color: #666;
+  outline: 0;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+}
+
+.ss-main .ss-single-selected .ss-arrow span {
+  border: solid #006dd9;
+  border-width: 0 2px 2px 0;
+}
+
+.dropdown-menu:after,
+.arrow-up:before {
+  border-bottom: 10px solid transparent;
+}
+
+/* h2 {
+  color: var(--color-primario);
+} */
+
+tfoot th td{
+  color: var(--color-primario);
+}
+
+#eliminar_destinatarios{
+  display: none;
+}
+
+.not_border_bottom{
+  border-bottom: none !important;
+}
+
+.not_border_top{
+  border-top: none !important;
+}
+
+.border_top{
+  border-top: 1px solid #edeff5 !important;
+}
+
+#btnModalCancelacion{
+  display:none;
+}
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  opacity: 0.6;
+  background: url("../../../img/timdesk/Preloader.gif") 50% 50% no-repeat
+    rgb(249, 249, 249);
+}
+
+#relation-uuid{
+  display:none;
+}
+
+.textBlue{
+  color: var(--azul-mas-oscuro);
+}
+
+.textData{
+  font-size:large;
+}
+
+

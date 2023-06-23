@@ -1,0 +1,325 @@
+/* Página */
+#boardContent {
+  overflow-x: scroll !important;
+}
+
+/* Encabezado */
+.board-header {
+  border-bottom: 1px solid #dedede;
+  min-height: 155px;
+  position: relative;
+}
+
+#noSortableColumns {
+  float: left;
+  width: 200px;
+  text-align: right;
+  display: inline;
+}
+#sortableColumns {
+  float: left;
+  text-align: left;
+  display: inline;
+  width: 1px;
+}
+
+.search-tareas {
+  background-image: url(../../../img/timdesk/buscar.svg);
+  background-position: 4px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding-left: 28px;
+  height: 30px;
+  border: none;
+  border-radius: 1px;
+}
+
+.severalOptions {
+  /*border: 1px solid;*/
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.severalOptionsLeft {
+  /*border: 1px solid;*/
+  margin-bottom: 20px;
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.columna-item {
+  display: flex;
+  align-items: center;
+}
+
+.listaColumnas {
+  position: absolute;
+  top: 146px;
+  right: 50px;
+  background-color: rgba(2, 24, 46, 0.9);
+  /*!important: ;*/
+  z-index: 100;
+  border-radius: 10px;
+  box-shadow: 0px 8px 21px -5px rgba(0, 0, 0, 0.75);
+  /* border-bottom: 1px solid #E1E1E1; */
+  width: 17%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.check-type-column {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+
+.checked-type-column {
+  width: 15px;
+  height: 15px;
+  background-color: #40a09d;
+  border-radius: 50%;
+  border: 1px solid #40a09d;
+  cursor: pointer;
+  background-image: url(../../../img/timdesk/checkmark.svg);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* BoardContent */
+.columna-cliente {
+  padding: 10px;
+  width: 250px;
+  height: 50px;
+  border: 1px solid #15589b;
+  text-align: center;
+  background-color: #15589b;
+  color: white;
+  cursor: all-scroll;
+  border-right-color: white;
+  border-left-color: white;
+}
+
+#col_1 .columna-cliente {
+  cursor: default !important;
+}
+
+.columna-info {
+  border: 1px solid lightgrey;
+  background: white;
+  text-align: center;
+}
+
+/* Utilidades */
+.pd-15 {
+  padding: 15px;
+}
+
+.d-no {
+  display: none;
+}
+
+.b-bottom {
+  border-bottom: 1px solid lightgrey;
+}
+
+.b-bottom input {
+  cursor: default;
+}
+
+.border-n {
+  border: none;
+  display: inline-block;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+  /*
+  #wrapper.toggled #sidebar-menu {
+    margin-left: -15rem;
+  }
+  */
+}
+
+.edit-icon {
+  width: 20px;
+  position: relative;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: none;
+}
+
+.delete-icon {
+  width: 20px;
+  position: relative;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: none;
+}
+
+.idCliente {
+  border: 2px solid #ccc;
+  /* IMPORTANTE */
+  text-align: center;
+}
+
+.se-pre-pro {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  /* z-index: 9999; */
+  background: url(../../../img/timdesk/PreloaderTiny.gif) center no-repeat;
+}
+
+.column-header {
+  width: 240px;
+  position: relative;
+  display: inline-block;
+}
+
+.column-title {
+  /* width: 250px; */
+  margin: 0 auto;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.column-order {
+  position: relative;
+  float: right;
+  width: 20px;
+  top: -23px;
+}
+
+.column-order i {
+  color: white;
+}
+
+.columna-add {
+  background: #15589b;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 13px;
+}
+
+
+.cursorPointer:hover {
+  cursor: pointer;
+}
+
+.img-column {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.logo-column {
+  width: 45px;
+  height: 45px;
+}
+
+
+
+#pagination-bar {
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-right: 30px;
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.button-container {
+  top: 80px;
+}
+
+/* .header-screen {
+  display: block;
+  width: 400px;
+  height: 35px;
+  align-items: center;
+} */
+
+.header-title-screen img {
+  display: inline-block;
+  height: 40px;
+}
+
+.info-column {
+  display: flex;
+  height: auto;
+  margin: 10px;
+  flex-direction: row;
+  -webkit-box-shadow: -1px 0px 14px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 14px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 14px -10px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  transition: width 2s;
+}
+
+.info-column:hover {
+  -webkit-box-shadow: 10px 15px 20px 1px #1c87a0;
+  -moz-box-shadow: 10px 15px 20px 1px #1c87a0;
+  box-shadow: 5px 5px 20px 1px #1c87a0;
+  border-radius: 10px;
+  margin: 6px;
+}
+
+.description-column {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 14px;
+  width: 100%;
+}
+.name-column {
+  margin: 10px;
+  padding: 1px;
+  color: #15589b;
+}
+
+.name-column h5 {
+  letter-spacing: 2px;
+  border: 1px solid transparent;
+  text-align: justify;
+}
+
+.text-column {
+  text-align: justify;
+  margin: 10px;
+
+  padding: 1px;
+  color: #15589b;
+}
+
+
+.excelDataTableButton {
+  background-color: transparent;
+  border: none;
+}
+

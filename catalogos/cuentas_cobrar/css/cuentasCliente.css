@@ -1,0 +1,19 @@
+
+tbody td:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dtsb-searchBuilder{
+    padding-right:10px;
+    width:85%;
+    display: inline-block;
+}
+.dtsb-titleRow{
+    display:none !important;
+}
+
+  
+
+

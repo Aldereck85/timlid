@@ -1,0 +1,14 @@
+#datos h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.readEditPermissions {
+  display: block;
+}
+
+.readNotEditPermissions {
+  opacity: .6 ;
+  background-repeat: no-repeat;
+  pointer-events: none ;
+}

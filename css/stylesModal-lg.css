@@ -1,0 +1,12 @@
+.modal-full-height-lg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 850px;
+  height: auto;
+  min-height: 100%;
+  margin: 0;
+}

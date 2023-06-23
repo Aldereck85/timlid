@@ -1,0 +1,252 @@
+.dropdown-menu {
+  left: 2px !important;
+}
+
+.dropdown-menu::before {
+  border: 0;
+}
+
+.dropdown-menu::after {
+  border: 0;
+}
+
+.min-h-full {
+  min-height: 85%;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.modal-content {
+  border-width: 0px;
+}
+
+button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.color-picker {
+  height: 40px;
+  width: 40px;
+  border-radius: 9999px;
+}
+
+.color-picker-sm {
+  height: 20px;
+  width: 20px;
+  border-radius: 9999px;
+}
+
+#calendario {
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+.fc .fc-scroller-harness-liquid {
+  width: 100%;
+}
+
+.ss-main .ss-multi-selected .ss-values .ss-value {
+  color: #666 !important;
+  background-color: #fff !important;
+}
+
+.label-modal {
+  font-size: 12px;
+  color: #666 !important;
+  width: 60px;
+}
+
+.modal-dialog.tui-full-calendar-popup {
+  position: relative !important;
+}
+
+.tui-full-calendar-confirm:hover {
+  background-color: var(--primario-oscuro);
+  border-color: var(--primario-oscuro);
+}
+
+.tui-full-calendar-confirm {
+  background-color: var(--color-primario);
+  border-color: var(--color-primario);
+}
+
+#dropdownMenu-calendarType {
+  width: 150px;
+}
+
+#dropdownMenu-activityType {
+  width: 100px;
+}
+
+.tui-calendar-body-header {
+  background-color: unset;
+  font-size: 10px;
+}
+
+.tui-calendar-header-info {
+  display: none;
+}
+
+.tui-full-calendar-content {
+  font-size: 10px !important;
+}
+
+.tui-full-calendar-button {
+  text-align: right;
+}
+
+.tui-full-calendar-section-button-save .tui-full-calendar-button {
+  text-align: center;
+}
+
+.tui-full-calendar-popup-arrow-border {
+  display: none;
+}
+
+.tui-full-calendar-section-tipo-actividad {
+  width: 176px;
+}
+.tui-full-calendar-section-tipo-actividad.tui-full-calendar-hide {
+  height: 21px;
+  visibility: hidden;
+}
+
+.tui-full-calendar-section-tipo-actividad
+  .tui-full-calendar-dropdown-button
+  .tui-full-calendar-content {
+  width: 125px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  top: -1px;
+}
+
+.tui-full-calendar-section-tipo-actividad
+  .tui-full-calendar-dropdown-menu-item {
+  width: 100%;
+}
+
+.fade-in-image {
+  animation: fadeIn 500ms;
+  -webkit-animation: fadeIn 500ms;
+  -moz-animation: fadeIn 500ms;
+  -o-animation: fadeIn 500ms;
+  -ms-animation: fadeIn 500ms;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.tui-full-calendar-floating-layer.fade-in-image {
+  top: -10px !important;
+  left: 25% !important;
+}
+
+.tui-full-calendar-icon {
+  font-size: 10px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .tui-full-calendar-popup-container {
+    min-width: 300px !important;
+  }
+
+  .tui-full-calendar-section-title input,
+  .tui-full-calendar-popup-section-item.tui-full-calendar-section-location
+    input {
+    width: unset !important;
+  }
+
+  .tui-full-calendar-section-title {
+    width: unset !important;
+  }
+
+  .tui-full-calendar-section-location {
+    width: calc(100% - 36px) !important;
+  }
+
+  .tui-full-calendar-floating-layer.fade-in-image {
+    top: -10px !important;
+    left: 0% !important;
+  }
+
+  .tui-full-calendar-section-end-date {
+    margin-top: 9px !important;
+  }
+}
+
+.tui-full-calendar-schedule-subtitle {
+  font-size: 0.75rem;
+}
+
+.calendar-observaciones {
+  width: 100%;
+  border: 1px solid #d5d5d5;
+}
+
+.ss-main .ss-single-selected {
+  background-color: #fff;
+  color: #666;
+  outline: 0;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+}
+
+.ss-main .ss-single-selected .ss-arrow span {
+  border: solid var(--primario-oscuro);
+  border-width: 0 2px 2px 0;
+}

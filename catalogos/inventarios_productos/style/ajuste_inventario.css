@@ -1,0 +1,53 @@
+table p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 300px;
+    white-space: nowrap
+}
+
+div .swal2-modal{
+    width: 1100px
+}
+
+.tooltip{
+    pointer-events: none
+}
+
+#tblAjustesDetalle > tbody > tr > td:nth-child(9) > div{
+    width: 200px
+}
+
+#tblAjustesDetalle > tbody > tr > td:nth-child(9) > div > div:first-child{
+    border-color: #fff;
+}
+
+#tblAjustesDetalle_wrapper{
+  padding: 0px 0px 160px 0px;
+}
+
+.ss-single-selected{
+  border-top: 1px solid var(--color-primario) !important;
+  border-left: 1px solid var(--color-primario) !important;
+  border-right: 1px solid var(--color-primario) !important;
+  height: 33px !important;
+  margin-top: 4px; 
+}
+
+.not-rezise{
+  margin-top: 4px;
+}
+
+#tblBusquedaAjustes tbody tr:hover{
+  background-color: rgba(21, 88, 155, 0.2);
+}
+
+/* .swal2-actions{
+    justify-content: left !important;
+    align-items: left !important;
+    width: 50% !important;
+    background-color: black !important;
+}
+
+table.dataTable.no-footer {
+    border-bottom: none;
+} */

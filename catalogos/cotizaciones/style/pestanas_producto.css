@@ -1,0 +1,94 @@
+#etiquetas h6 {
+  text-align: center;
+  font-weight: normal !important;
+  color: white;
+}
+
+.pestanas_producto .nav-link {
+  position: relative;
+  border-radius: 0px !important;
+  width: 200px;
+}
+
+.pestanas_producto {
+  position: relative;
+  flex: 0 !important;
+
+  width: 200px;
+  margin-right: 10px;
+  margin-bottom: 15px !important;
+  padding: 0px;
+}
+
+/*Agregar*/
+#CargarDatosProducto {
+  background-color: #006dd9;
+  cursor: not-allowed;
+  text-decoration: none;
+  color: currentColor;
+  transition: all 0.7s;
+}
+
+#CargarDatosImpuestos {
+  background-color: #15589b;
+  cursor: not-allowed;
+  text-decoration: none;
+  color: currentColor;
+  transition: all 0.7s !important;
+}
+
+#CargarDatosProveedor {
+  background-color: #1c87a0;
+  cursor: not-allowed;
+  text-decoration: none;
+  color: currentColor;
+  transition: all 0.7s;
+}
+
+#CargarDatosInventario {
+  background-color: #40a09d;
+  cursor: not-allowed;
+  text-decoration: none;
+  color: currentColor;
+  transition: all 0.7s;
+}
+
+#CargarTiposProducto {
+  background-color: #86c7c7;
+  cursor: not-allowed;
+  text-decoration: none;
+  color: currentColor;
+  transition: all 0.7s;
+}
+
+/*edicion*/
+
+#CargarEdicionDatosProducto {
+  background-color: #006dd9;
+  transition: all 0.7s;
+}
+
+#CargarEdicionDatosImpuestos {
+  background-color: #15589b;
+  transition: all 0.7s !important;
+}
+
+#CargarEdicionDatosProveedor {
+  background-color: #1c87a0;
+  transition: all 0.7s;
+}
+
+#CargarEdicionDatosInventario {
+  background-color: #40a09d;
+  transition: all 0.7s;
+}
+
+#CargarEdicionTiposProducto {
+  background-color: #86c7c7;
+  transition: all 0.7s;
+}
+
+#datos h1 {
+  text-align: center;
+  font-weight: bold;
+}
